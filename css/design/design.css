@@ -6,9 +6,76 @@ html{
     background-size: cover;
 
 }
-.main{
-    height:3000px;
-    background-color:
+body p{
+    margin:0;
+}
+.header{
+    width:95%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social{
+    position: fixed;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:520px;
+    height:45px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color:white;
+    border-radius:5px;
+}
+.box{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.menu, .menu-fantom {
+    width: 160px;
+    height: 95vh;
+   /* border: 1px solid rgb(19, 15, 64, 0.3);*/
+}
+.menu{
+    position:fixed;
+    top:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu a{
+    width:160px;
+    text-align:center;
+}
+.menu p{
+    box-sizing: border-box;
+    padding:10px 30px!important;
+    font-family:impact;
+    font-size:25px;
+    color:white;
+    text-align: center;
+    margin:20px 0;
+    padding:5px 0;
+    border:3px solid white;
+    /*border-radius: 5px;*/
+}
+.menu>a>i{
+    color:white;
+    padding:20px 20px;
+}
+/*!*li {
+    list-style-type: none;
+}*/
+
+.main {
+    margin-top:60px;
+    justify-self: center;
+    width: 75%;
+    height: 3000px;
+   /* background-color: rgb(255, 255, 255, 0.1);*/
+    border-radius: 10px;
 }
 img{
     width:100%;

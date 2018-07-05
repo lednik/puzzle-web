@@ -1,0 +1,63 @@
+.home .block-1{
+    width:100%;
+    height: 40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:40vh;
+}
+.home .block-1 p{
+
+    font-size:30px;
+    margin:0px;
+    text-align:center;
+    color:white;
+}
+.home .block-1 p:first-child {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight:700;
+    font-size: 150px;
+    color:#98baed;
+}
+.block-2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.block-2>p{
+    font-size:40px;
+    color:white;
+    margin-bottom:40px;
+}
+.block{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding:30px 30px;
+    border-radius:20px;
+}
+.block>div{
+    flex-basis:48%;
+    padding:0 15px;
+}
+.block>div:first-child{
+    border-right: 1px solid darkred;
+}
+.block p, .block li{
+    font-size:20px;
+    margin-top:20px;
+    padding:15px 0;
+}
+#p-main-block2{
+    font-weight:700;
+}
+.puzzle-name{
+    font-weight:700;
+}
+.puzzle-img,.puzzle-html,.puzzle-css,.puzzle-js,.puzzle-php,.puzzle-library{
+    text-align:center;
+    background-color:rgb(0, 0, 0, 0.2);
+    color:darkred;
+    border-radius:10px;
+}

@@ -1,4 +1,4 @@
-.header{
+/*.header{
     width:95%;
     margin:auto;
     display:flex;
@@ -11,12 +11,10 @@
     align-items:center;
     width:520px;
     height:45px;
-    background-color: rgb(106, 176, 76, 0.2);
+    /*background-color: rgb(19, 15, 64, 0.1);*//*
 }
 .menu{
-   /* width:60px;
-    height:320px;*/
-    background-color: rgb(106, 176, 76, 0.2);
+    background-color: rgb(106, 176, 76, 0.3);
 }
 .menu p{
     padding:10px 30px;
@@ -24,3 +22,4 @@
     font-family:impact;
     font-size:20px;
 }
+*/
